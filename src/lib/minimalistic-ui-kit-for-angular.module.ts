@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
-import { MinimalisticUiKitForAngularComponent } from './minimalistic-ui-kit-for-angular.component';
+import { MinButton } from './button/min-button.component';
 
 
 
 @NgModule({
-  declarations: [MinimalisticUiKitForAngularComponent],
+  declarations: [
+    MinButton,
+  ],
   imports: [
   ],
-  exports: [MinimalisticUiKitForAngularComponent]
+  exports: [MinButton]
 })
 export class MinimalisticUiKitForAngularModule { }
