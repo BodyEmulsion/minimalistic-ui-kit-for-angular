@@ -1,0 +1,32 @@
+:host(input[min-input][type=text], input[min-input][type=password]){
+  background-color: white;
+  font-family: Montserrat, serif;
+  font-weight: 200;
+  font-size: 1em;
+  box-shadow: 0px 1px 5px -1px gray inset;
+  border-radius: 0.5em;
+  border: 0.5px solid #ababab;
+  padding: 0.7em 1.4em;
+  margin: 4px;
+}
+:host(input[min-input][type=checkbox]){
+  visibility: hidden;
+  z-index: -1;
+  opacity: 0;
+}
+div {
+  position: relative;
+  visibility: visible;
+  z-index: auto;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 0.5px solid #ababab;
+  background-color: #5BC8F7;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}

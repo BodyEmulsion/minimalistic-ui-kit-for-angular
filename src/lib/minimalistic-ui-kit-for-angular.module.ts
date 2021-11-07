@@ -1,14 +1,19 @@
 import { NgModule } from '@angular/core';
-import { MinButton } from './button/min-button.component';
+import {ButtonComponent} from './button/button.component';
+import { InputComponent } from './input/input.component';
 
 
 
 @NgModule({
   declarations: [
-    MinButton,
+    ButtonComponent,
+    InputComponent,
   ],
   imports: [
   ],
-  exports: [MinButton]
+  exports: [
+    ButtonComponent,
+    InputComponent
+  ]
 })
 export class MinimalisticUiKitForAngularModule { }
